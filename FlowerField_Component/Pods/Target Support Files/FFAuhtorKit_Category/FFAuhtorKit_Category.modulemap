@@ -1,0 +1,6 @@
+framework module FFAuhtorKit_Category {
+  umbrella header "FFAuhtorKit_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,16 +1,30 @@
 
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/BJComponent/BJSpecs.git'
 
 use_frameworks!
 platform :ios, '8.0' 
 target ‘FlowerField’ do 
 
-pod 'MBProgressHUD'
-pod 'AFNetworking'
-pod 'Masonry'
-pod 'YYWebImage'
-pod 'FMDB'
-pod 'ReactiveCocoa', '~> 2.5'
+#pod 'MBProgressHUD'
+#pod 'AFNetworking'
+#pod 'Masonry'
+#pod 'YYWebImage'
+#pod 'FMDB'
+#pod 'ReactiveCocoa', '~> 2.5'
+#pod 'FFCategoryKit', '~> 0.1.1'
+#pod 'FFToolsKit', '~> 0.1.0'
+#pod 'FFAPIs', '~> 0.1.1'
+#pod 'FFConfigsKit', '~> 0.1.0'
+#pod 'FFReformerKeysKit', '~> 0.1.0'
+#pod 'FFMainViewKit', '~> 0.1.0'
+
+pod 'FFSpecialKit'
+pod 'FFAuthorKit'
+
+pod 'FFSpecialKit_Category'
+pod 'FFAuhtorKit_Category'
+
 
 end
 

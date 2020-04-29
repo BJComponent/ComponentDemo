@@ -1,0 +1,6 @@
+framework module FFSpecialKit {
+  umbrella header "FFSpecialKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

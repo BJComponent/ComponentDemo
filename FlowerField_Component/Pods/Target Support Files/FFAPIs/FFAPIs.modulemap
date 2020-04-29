@@ -1,0 +1,6 @@
+framework module FFAPIs {
+  umbrella header "FFAPIs-umbrella.h"
+
+  export *
+  module * { export * }
+}
