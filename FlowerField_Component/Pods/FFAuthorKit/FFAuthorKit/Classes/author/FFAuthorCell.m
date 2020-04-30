@@ -12,8 +12,8 @@
 //#import "FFAuthorListReformerKeys.h"
 //#import <FFReformerKeysKit/FFReformerKeysKit-umbrella.h>
 #import <Masonry/Masonry.h>
-#import <FFConfigsKit/FFConfigsKit-umbrella.h>
-#import <FFCategoryKit/FFCategoryKit-umbrella.h>
+#import <FFUtils/FFUtils.h>
+//#import <FFCategoryKit/FFCategoryKit-umbrella.h>
 //#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface FFAuthorCell ()

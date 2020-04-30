@@ -11,13 +11,13 @@
 #import "FFAuthorListReformer.h"
 // view
 //#import "FFMainView.h"
-#import <FFMainViewKit/FFMainViewKit-umbrella.h>
+#import <FFWdiget/FFWidget.h>
 #import "FFAuthorCell.h"
 // controller
 #import "FFAuthorDetailController.h"
 //#import "FFSpecialDetailController.h"
-#import <FFToolsKit/FFToolsKit-umbrella.h>
-#import <FFCategoryKit/FFCategoryKit-umbrella.h>
+//#import <FFToolsKit/FFToolsKit-umbrella.h>
+//#import <FFCategoryKit/FFCategoryKit-umbrella.h>
 
 @interface FFAuthorController ()<APIResponseProtocol,FFCellProtocol>
 
@@ -35,19 +35,19 @@
     [self.view addSubview:self.mainView];
     [self.mainView registerCellClass:[FFAuthorCell class]];
     
-    [HUDTools zj_showLoadingInView:self.view];
+//    [HUDTools zj_showLoadingInView:self.view];
     [self request];
 }
 
 #pragma mark -- CustomDelegate
 - (void)apiResponseSuccess:(id<APIRequestProtocol>)request {
-    [HUDTools zj_hideInView:self.view];
+//    [HUDTools zj_hideInView:self.view];
     NSArray *dataArray = [request fetchDataWithReformer:[[FFAuthorListReformer alloc] init]];
     [self.mainView configWithData:dataArray];
 }
 
 - (void)apiResponseFaild:(id<APIRequestProtocol>)request error:(NSError *)error {
-    [HUDTools zj_hideInView:self.view];
+//    [HUDTools zj_hideInView:self.view];
     NSArray *dataArray = [request fetchDataWithReformer:[[FFAuthorListReformer alloc] init]];
     [self.mainView configWithData:dataArray];
 }

@@ -1,0 +1,6 @@
+framework module FFWdiget {
+  umbrella header "FFWdiget-umbrella.h"
+
+  export *
+  module * { export * }
+}

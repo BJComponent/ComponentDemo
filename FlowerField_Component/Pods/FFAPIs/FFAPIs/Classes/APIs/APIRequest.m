@@ -7,8 +7,8 @@
 //
 
 #import "APIRequest.h"
-#import "DBManager.h"
-#import "FFHelper.h"
+//#import "DBManager.h"
+//#import "FFHelper.h"
 
 @implementation APIRequest
 
@@ -30,25 +30,23 @@
     
     NSString *url = [self.request apiRequestURL];
     NSDictionary *params = [self.request apiRequestParams];
-    NSString *cacheKey = [FFHelper connectBaseUrl:url params:params.mutableCopy];
+//    NSString *cacheKey = [FFHelper connectBaseUrl:url params:params.mutableCopy];
     
     [[NetworkHelper sharedInstance] requestMethod:self.method url:url parameters:params finishBlock:^(id data, NSError *error) {
         if (error) {
-            NSDictionary *cacheData = [[DBManager sharedManager] itemWithCacheKey:cacheKey];
-            if (!cacheData) {
-                self.responseError = error;
-                if ([self.delegate respondsToSelector:@selector(apiResponseFaild:error:)]) {
-                    [self.delegate apiResponseFaild:self.request error:error];
-                }
-                return;
+//            NSDictionary *cacheData = [[DBManager sharedManager] itemWithCacheKey:cacheKey];
+//            if (!cacheData) {
+//            }
+            self.responseError = error;
+            if ([self.delegate respondsToSelector:@selector(apiResponseFaild:error:)]) {
+                [self.delegate apiResponseFaild:self.request error:error];
             }
-            [self successCallBack:cacheData];
             return;
         }
         [self successCallBack:data];
-        if (self.isCache) {
-             [[DBManager sharedManager] insertItem:data cacheKey:cacheKey];
-        }
+//        if (self.isCache) {
+//             [[DBManager sharedManager] insertItem:data cacheKey:cacheKey];
+//        }
     }];
 }
 

@@ -15,51 +15,34 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - CTMediator (28)
-  - FFAPIs (0.1.1):
+  - FFAPIs (0.1.2):
     - AFNetworking
-    - FFToolsKit (~> 0.1.0)
   - FFAuhtorKit_Category (0.1.0):
     - CTMediator
     - FFAPIs
-  - FFAuthorKit (0.1.1):
+  - FFAuthorKit (0.1.6):
     - FFAPIs
-    - FFCategoryKit
-    - FFConfigsKit
-    - FFMainViewKit
-    - FFReformerKeysKit
-    - FFToolsKit
+    - FFUtils
+    - FFWdiget
     - Masonry
-    - ReactiveCocoa
     - YYWebImage
-  - FFCategoryKit (0.1.1)
-  - FFConfigsKit (0.1.0)
-  - FFMainViewKit (0.1.0)
-  - FFReformerKeysKit (0.1.0)
-  - FFSpecialKit (0.1.3):
+  - FFSpecialKit (0.1.6):
+    - FFSpecialKit/Special (= 0.1.6)
+  - FFSpecialKit/Special (0.1.6):
+    - FFSpecialKit/Special/Detail (= 0.1.6)
+    - FFSpecialKit/Special/Home (= 0.1.6)
+  - FFSpecialKit/Special/Detail (0.1.6)
+  - FFSpecialKit/Special/Home (0.1.6):
     - FFAPIs
     - FFAuhtorKit_Category
-    - FFCategoryKit
-    - FFConfigsKit
-    - FFMainViewKit
-    - FFReformerKeysKit
-    - FFToolsKit
+    - FFSpecialKit/Special/Detail
+    - FFUtils
+    - FFWdiget
     - Masonry
-    - ReactiveCocoa
     - YYWebImage
-  - FFSpecialKit_Category (0.1.0):
-    - CTMediator
-    - FFAPIs
-  - FFToolsKit (0.1.0):
-    - FMDB
-    - MBProgressHUD (~> 1.1.0)
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
+  - FFUtils (0.1.3)
+  - FFWdiget (0.1.0)
   - Masonry (1.1.0)
-  - MBProgressHUD (1.1.0)
-  - ReactiveCocoa (10.2.0):
-    - ReactiveSwift (~> 6.2)
-  - ReactiveSwift (6.2.1)
   - YYCache (1.0.4)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
@@ -69,57 +52,51 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
-  - FFAuhtorKit_Category
-  - FFAuthorKit
-  - FFSpecialKit
-  - FFSpecialKit_Category
+  - FFAuthorKit (from `https://github.com/BJComponent/FFAuthorKit.git`)
+  - FFSpecialKit (from `https://github.com/BJComponent/FFSpecialKit.git`)
 
 SPEC REPOS:
   https://github.com/BJComponent/BJSpecs.git:
     - FFAPIs
     - FFAuhtorKit_Category
-    - FFAuthorKit
-    - FFCategoryKit
-    - FFConfigsKit
-    - FFMainViewKit
-    - FFReformerKeysKit
-    - FFSpecialKit
-    - FFSpecialKit_Category
-    - FFToolsKit
+    - FFUtils
+    - FFWdiget
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - CTMediator
-    - FMDB
     - Masonry
-    - MBProgressHUD
-    - ReactiveCocoa
-    - ReactiveSwift
     - YYCache
     - YYImage
     - YYWebImage
 
+EXTERNAL SOURCES:
+  FFAuthorKit:
+    :git: https://github.com/BJComponent/FFAuthorKit.git
+  FFSpecialKit:
+    :git: https://github.com/BJComponent/FFSpecialKit.git
+
+CHECKOUT OPTIONS:
+  FFAuthorKit:
+    :commit: 0776ba4aa510eea2d1c9a038c87712313a24de19
+    :git: https://github.com/BJComponent/FFAuthorKit.git
+  FFSpecialKit:
+    :commit: bd350f2e3a56d14bf7257dbf4d939d6aa4f420b8
+    :git: https://github.com/BJComponent/FFSpecialKit.git
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
-  FFAPIs: bcc33221e507f8b9a0eaaf9714a24c8c14235703
+  FFAPIs: 31b311de8d39294d435886a0cb7b4e7b61f29cf0
   FFAuhtorKit_Category: 4c8f05c933d8ac9aa60280935cce3f4a9fa0989b
-  FFAuthorKit: f680893e9329d3cbde80c7f34ccd1f0ba54686b1
-  FFCategoryKit: 63253315ef5c172add7aba54d081a3fa9b476762
-  FFConfigsKit: 8c9a8191e8d542123d2d0f4581c266bb77e9a51e
-  FFMainViewKit: dfb7534759134c572257ce3cc0b6c770a33a52b7
-  FFReformerKeysKit: 042fe863756589319539e516b1c1abd9d238781d
-  FFSpecialKit: 5d8bc5190ae3a9f8a44a081d9e9f7f285b9dce23
-  FFSpecialKit_Category: bb7b5e84aec34498e88629f3c55503a8bf7be4f4
-  FFToolsKit: 8968989c9d1e1320e1d9d034637dcff1eec2577f
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FFAuthorKit: a978d14398890ea82bf670e20cf2f77cf3d1c2da
+  FFSpecialKit: 5dc23deb25019915bc6219b11c7a98d757523158
+  FFUtils: 52218fd29780da8d215e1d63dae7e03a138c6bbe
+  FFWdiget: f2f2bb29790ba8c7d5ab296b67b1565680ff9d0e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  ReactiveCocoa: a123c42f449c552460a4ee217dd49c76a17c8204
-  ReactiveSwift: 07ddf579f4eb3ee3bd656214f0461aaf2c0fd639
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 31779ab5b31de6fede9d690cb01f9fe4cb30cade
+PODFILE CHECKSUM: 3996b2614ebddf56cc3839dd121137f996f59bff
 
 COCOAPODS: 1.7.5
