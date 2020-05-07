@@ -10,6 +10,6 @@
 #define FFWidget_h
 
 #import "FFMainView.h"
-
+#import "UITableViewCell+FFAdd.h"
 
 #endif /* FFWidget_h */

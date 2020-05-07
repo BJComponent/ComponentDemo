@@ -9,15 +9,10 @@
 #import "FFAuthorController.h"
 #import "AuthorAPIRequest.h"
 #import "FFAuthorListReformer.h"
-// view
-//#import "FFMainView.h"
 #import <FFWdiget/FFWidget.h>
 #import "FFAuthorCell.h"
-// controller
 #import "FFAuthorDetailController.h"
-//#import "FFSpecialDetailController.h"
-//#import <FFToolsKit/FFToolsKit-umbrella.h>
-//#import <FFCategoryKit/FFCategoryKit-umbrella.h>
+#import "CTMediator+Special.h"
 
 @interface FFAuthorController ()<APIResponseProtocol,FFCellProtocol>
 
@@ -41,13 +36,11 @@
 
 #pragma mark -- CustomDelegate
 - (void)apiResponseSuccess:(id<APIRequestProtocol>)request {
-//    [HUDTools zj_hideInView:self.view];
     NSArray *dataArray = [request fetchDataWithReformer:[[FFAuthorListReformer alloc] init]];
     [self.mainView configWithData:dataArray];
 }
 
 - (void)apiResponseFaild:(id<APIRequestProtocol>)request error:(NSError *)error {
-//    [HUDTools zj_hideInView:self.view];
     NSArray *dataArray = [request fetchDataWithReformer:[[FFAuthorListReformer alloc] init]];
     [self.mainView configWithData:dataArray];
 }
@@ -58,8 +51,8 @@
 }
 
 - (void)cellGoodTopicDidClick:(NSIndexPath *)indexPath params:(NSDictionary *)params {
-//    UIViewController *controller = [[FFSpecialDetailController alloc] init];
-//    [self.navigationController pushViewController:controller animated:YES];
+    UIViewController *vc = [[CTMediator sharedInstance] specialDetailController];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - getter

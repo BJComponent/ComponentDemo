@@ -18,11 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "resource_bundles": {
-    "FFSpecialKit": [
-      "FFSpecialKit/Assets/*"
-    ]
-  },
+  "resources": [
+    "FFSpecialKit/Assets/*.bundle"
+  ],
   "subspecs": [
     {
       "name": "Special",

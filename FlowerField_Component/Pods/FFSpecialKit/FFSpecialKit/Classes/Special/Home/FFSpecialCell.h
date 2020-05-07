@@ -11,5 +11,4 @@
 
 @interface FFSpecialCell : UITableViewCell<FFCellProtocol>
 
-
 @end

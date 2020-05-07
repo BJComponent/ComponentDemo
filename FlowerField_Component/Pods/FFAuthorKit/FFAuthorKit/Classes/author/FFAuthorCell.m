@@ -7,14 +7,10 @@
 //
 
 #import "FFAuthorCell.h"
-//#import "YYWebImage.h"
-//#import <YYWebImage/YYWebImage.h>
-//#import "FFAuthorListReformerKeys.h"
-//#import <FFReformerKeysKit/FFReformerKeysKit-umbrella.h>
+#import <YYWebImage/YYWebImage.h>
 #import <Masonry/Masonry.h>
 #import <FFUtils/FFUtils.h>
-//#import <FFCategoryKit/FFCategoryKit-umbrella.h>
-//#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <FFWdiget/FFWidget.h>
 
 @interface FFAuthorCell ()
 
@@ -91,10 +87,27 @@
         make.height.mas_equalTo(FFCellLineHeight);
     }];
     
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] init];
+    [tap addTarget:self action:@selector(tapAction)];
+    [self.goodTopic addGestureRecognizer:tap];
+    
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    [self handleData];
 }
 
 #pragma mark - handle data
 - (void)handleData {
+    
+    [self.headImgView yy_setImageWithURL:self.dataDict[kAuthorPropertyListHeaderURL] placeholder:[UIImage imageNamed:@"pc_default_avatar"]];
+    self.authorLabel.text = self.dataDict[kAuthorPropertyListKeyName];
+    self.authImgView.image = self.dataDict[kAuthorPropertyListKeyAuthIcon];
+    self.sortLabel.text = [NSString stringWithFormat:@"%zd",self.indexPath.row + 1];
+
     
 //    @weakify(self)
 //    [RACObserve(self, dataDict) subscribeNext:^(NSDictionary *data) {
@@ -117,6 +130,12 @@
 //            }
 //        }];;
 //    }];
+}
+
+- (void)tapAction {
+    if ([self.delegate respondsToSelector:@selector(cellGoodTopicDidClick:params:)]) {
+        [self.delegate cellGoodTopicDidClick:self.indexPath params:nil];
+    }
 }
 
 #pragma mark - getter
@@ -151,7 +170,7 @@
 - (UILabel *)goodTopic {
     if (_goodTopic == nil) {
         _goodTopic = [[UILabel alloc] init];
-        [_goodTopic text:@"[ 擅长话题 ]" textColor:kHexColor_c7a762 fontSize:FONT_SIZE_14 fontName:FONT_FAMILY_CODE_LIGHT];
+        [_goodTopic text:@"[擅长话题]" textColor:kHexColor_c7a762 fontSize:FONT_SIZE_14 fontName:FONT_FAMILY_CODE_LIGHT];
         _goodTopic.userInteractionEnabled = YES;
     }
     return _goodTopic;

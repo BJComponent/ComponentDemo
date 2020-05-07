@@ -13,6 +13,7 @@
 #import "NSArray+Log.h"
 #import "UIButton+Extension.h"
 #import "UIColor+Hex.h"
+#import "UIImage+FFImage.h"
 #import "UILabel+Extension.h"
 #import "UIView+FFFrame.h"
 #import "FFConst.h"

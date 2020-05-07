@@ -18,22 +18,33 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FFAuthorKit/Classes/**/*",
-  "dependencies": {
-    "Masonry": [
+  "resources": [
+    "FFAuthorKit/Assets/*.bundle"
+  ],
+  "subspecs": [
+    {
+      "name": "Author",
+      "source_files": "FFAuthorKit/Classes/Author/*",
+      "dependencies": {
+        "Masonry": [
 
-    ],
-    "YYWebImage": [
+        ],
+        "YYWebImage": [
 
-    ],
-    "FFAPIs": [
+        ],
+        "FFAPIs": [
 
-    ],
-    "FFUtils": [
+        ],
+        "FFUtils": [
 
-    ],
-    "FFWdiget": [
+        ],
+        "FFWdiget": [
 
-    ]
-  }
+        ],
+        "FFSpecialKit_Category": [
+
+        ]
+      }
+    }
+  ]
 }

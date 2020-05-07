@@ -30,34 +30,30 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.mainView];
-//    [HUDTools zj_showLoadingInView:self.view];
+    
     [self request];
 }
 
-#pragma mark -- CustomDelegate
+#pragma mark -- APIResponseProtocol
 - (void)apiResponseSuccess:(id<APIRequestProtocol>)request {
-//    [HUDTools zj_hideInView:self.view];
-    
     NSArray *dataArray = [request fetchDataWithReformer:[[FFSpecialListReformer alloc] init]];
     [self.mainView configWithData:dataArray];
 }
 
 - (void)apiResponseFaild:(id<APIRequestProtocol>)request error:(NSError *)error {
-//    [HUDTools zj_hideInView:self.view];
     NSArray *dataArray = [request fetchDataWithReformer:[[FFSpecialListReformer alloc] init]];
     [self.mainView configWithData:dataArray];
 }
 
-- (void)cellHeaderIconDidClick:(NSIndexPath *)indexPath params:(NSDictionary *)params {
-//    UIViewController *controller = [[FFAuthorDetailController alloc] init];
-//    [self.navigationController pushViewController:controller animated:YES];
-    UIViewController *vc = [[CTMediator sharedInstance] authorDetailViewController];
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
+#pragma mark -- FFCellProtocol
 - (void)cellDidClick:(NSIndexPath *)indexPath params:(NSDictionary *)params {
     UIViewController *controller = [[FFSpecialDetailController alloc] init];
     [self.navigationController pushViewController:controller animated:YES];
+}
+
+- (void)cellHeaderIconDidClick:(NSIndexPath *)indexPath params:(NSDictionary *)params {
+    UIViewController *vc = [[CTMediator sharedInstance] authorDetailViewController];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - getter

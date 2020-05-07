@@ -24,11 +24,11 @@
 - (UIImage *)authorAuthIcon:(NSNumber *)auth {
     switch ([auth integerValue]) {
         case 1:
-            return [UIImage imageNamed:@"u_vip_yellow"];
+            return [UIImage ff_imagePathWithName:@"u_vip_yellow" bundle:@"FFAuthorKit" targetClass:[self class]];
         case 2:
-            return [UIImage imageNamed:@"personAuth"];
+            return [UIImage ff_imagePathWithName:@"personAuth" bundle:@"FFAuthorKit" targetClass:[self class]];
         default:
-            return [UIImage imageNamed:@"u_vip_blue"];
+            return [UIImage ff_imagePathWithName:@"u_vip_blue" bundle:@"FFAuthorKit" targetClass:[self class]];
     }
 }
 

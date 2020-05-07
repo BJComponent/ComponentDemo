@@ -14,6 +14,7 @@
 #import "UILabel+Extension.h"
 #import "UIColor+Hex.h"
 #import "NSArray+Log.h"
+#import "UIImage+FFImage.h"
 
 #import "FFConst.h"
 

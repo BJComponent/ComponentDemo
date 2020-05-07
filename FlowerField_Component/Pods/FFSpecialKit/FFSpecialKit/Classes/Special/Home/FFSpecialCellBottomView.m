@@ -48,21 +48,21 @@
 
 - (UIButton *)readBtn{
     if (_readBtn == nil) {
-        _readBtn = [self createBtn:@""];
+        _readBtn = [self createBtn:@"hp_count"];
     }
     return _readBtn;
 }
 
 - (UIButton *)commentBtn{
     if (_commentBtn == nil) {
-        _commentBtn = [self createBtn:@""];
+        _commentBtn = [self createBtn:@"p_comment"];
     }
     return _commentBtn;
 }
 
 - (UIButton *)followBtn{
     if (_followBtn == nil) {
-        _followBtn = [self createBtn:@""];
+        _followBtn = [self createBtn:@"f_zan_19x17_"];
     }
     return _followBtn;
 }
@@ -70,7 +70,8 @@
 - (UIButton *)createBtn:(NSString *)imageName{
    
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn title:nil titleColor:kHexColor_555 image:imageName backgroundColor:nil fontSize:FONT_SIZE_12 target:nil action:nil];
+    [btn title:nil titleColor:kHexColor_555 image:@"" backgroundColor:nil fontSize:FONT_SIZE_12 target:nil action:nil];
+    [btn setImage:[UIImage ff_imagePathWithName:imageName bundle:@"FFSpecialKit" targetClass:[self class]] forState:UIControlStateNormal];
     [btn sizeToFit];
     btn.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -FFButtonTitleImageMargin);
     return btn;
