@@ -38,7 +38,7 @@
 		1F95537F6E19A3C2B064955C488A7BAC /* Target_Author.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9B8C01F56E83D496AF39B4738420BA /* Target_Author.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2119C1C7A93FCAC8BB3EE14240CD9B63 /* FFAuthorController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BCFBE8A966430FF288FD4ADDB31CD3 /* FFAuthorController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		222EE52C4B5334D1DCEA0EBA089FD7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE4F7F3081C3C3D7EFE22EB4D0D3137 /* Foundation.framework */; };
-		22E22809548E871E933C4FA27C81E989 /* FFBase.h in Headers */ = {isa = PBXBuildFile; fileRef = EE28094881A0F5BB589FA58CD1A5FA20 /* FFBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22E22809548E871E933C4FA27C81E989 /* FFBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2DAA7CC23C7652E8D098167D678719 /* FFBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23C2E1AD519D9EF67B007AE0B9609617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE4F7F3081C3C3D7EFE22EB4D0D3137 /* Foundation.framework */; };
 		24E1677A1A497A152606BDB1ACDD7FE4 /* FFAuthorListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FA569C6188916BA8FCCD9C89145CA3 /* FFAuthorListReformerKeys.m */; };
 		274765B661D72DD5E8F3E98584AD9EDF /* FFMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA3BC3F8CF8A52CC1C1B4852C162CB /* FFMainView.m */; };
@@ -85,7 +85,7 @@
 		5400D11B8D6F98ED1AF6B344FFDD7317 /* FFAuthorListReformerKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A33C4B43FFD3B2480751627FFC1BD0 /* FFAuthorListReformerKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		547A4B5E9CD1CDC8FE695688F962290F /* FFWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 60601CBDC7E5F02B9CC7F54FD9D8F3C7 /* FFWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55E51AFDC9FA00DC103468F78C5A0FE1 /* FFAPIs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479585330340370BF1B1B3A3036DC5F2 /* FFAPIs.framework */; };
-		5740D6BBAB8277C4F235E3C5A04A7E5F /* FFNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F36D7645C283083EFCA8380D4F23F6 /* FFNavController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5740D6BBAB8277C4F235E3C5A04A7E5F /* FFNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB27B99C39773D7758029CDC7E3D283C /* FFNavController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		59F12EC78667C0E2B8CBE3507C83E727 /* UIView+FFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ED77D2C6106B515B8162EAA3A88F69 /* UIView+FFFrame.m */; };
 		5A9BDDA8A874AFDE46BF15BEDF161288 /* FFAuhtorKit_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5570DEBC087F9D81EC6BB33B1F35DBAF /* FFAuhtorKit_Category.framework */; };
 		5AC494178882B5C4F9D446F63A19EE89 /* UIImage+FFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7C57B8D28351E48D57D20E05886C4D /* UIImage+FFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,7 +101,7 @@
 		62606F81891725290855EB5C901A8316 /* YYImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D10CD6C0523F2DD748BEDBF80D2BF20 /* YYImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E02C591F03A6C40047FD66FF4AFE25 /* FFSpecialCellBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C512FEE546E095EC1FCFE4EFE4536B14 /* FFSpecialCellBottomView.m */; };
 		62E1090E9BAC42A1FAFBAB36BF6077EC /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7F66D33D76E0D28743FD255EEBE634 /* YYWebImageManager.m */; };
-		635BDB980D75E1D426C46DC401ACFA96 /* FFNavController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA48ACAFAA19CAA3296810E36D6805AC /* FFNavController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635BDB980D75E1D426C46DC401ACFA96 /* FFNavController.h in Headers */ = {isa = PBXBuildFile; fileRef = F91044DEC0E12DC820F4E3FFB7C1F561 /* FFNavController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64BE796ADFBD9CB15457E900D5A102AC /* UIView+FFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F07F1D3410106EF33E399180E350D8 /* UIView+FFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65D2148FD3A1192220ADD3077936E6C7 /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB66911E30051810C6E9D9EF336524C /* YYWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65DF3E42253F154236ACD5C49C26655B /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 808B14A5F817F1486BB25E9E09B9236B /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -156,7 +156,7 @@
 		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4776BD2304E01F571AAEE198114018 /* UIActivityIndicatorView+AFNetworking.m */; };
 		8FD7427B977CDE1DBD1F44A405592A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE4F7F3081C3C3D7EFE22EB4D0D3137 /* Foundation.framework */; };
 		9089AE2F5662415866DBCA00D595C7AC /* APIResponseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A44DF6DB5EED23307485BEEF7270E6F /* APIResponseProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		918248E3D3F4A82190663BFF999C9F9D /* FFBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D1EEAD482C29A5852A32E35C6CC687 /* FFBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		918248E3D3F4A82190663BFF999C9F9D /* FFBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A159D4AAB81941DB2329C6BD1040F42E /* FFBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91BF72A48702F845C0D76ABCAE88A5D6 /* FFAuthorKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48A1CE55200C5FA5C9E97FBC96FAC15C /* FFAuthorKit.bundle */; };
 		924EF0D00E7BDC1825B343DBE7ACF567 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3C758911935EEBCC1A1A0CBE3FBDF2 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92AE42FB159AA4DA41161A6114DA7AE4 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6A340FBFF9E0583703EB94B08A0F8B /* CTMediator.framework */; };
@@ -268,7 +268,7 @@
 		FD12A663E11FAF9EEB1AF42A48A97D66 /* FFSpecialKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96756723B143CD711C865B011DAA769D /* FFSpecialKit-dummy.m */; };
 		FE77950EEE195B943E55538EF70B764B /* FFAuthorListReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 889F2170F9641F51936C2BA7096D3B7F /* FFAuthorListReformer.m */; };
 		FF2A28092FBEB4FB6D8E28AA6D4FC5DE /* AuthorAPIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C7D719B2E07145CEDA25939EE8050D /* AuthorAPIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF8FD1726219CDAA0316C85A46D710FE /* FFBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 706CA1E0BEF8DDC32A0194F5CF006351 /* FFBase-dummy.m */; };
+		FF8FD1726219CDAA0316C85A46D710FE /* FFBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB37339308B784115E5E856A6B6E0 /* FFBase-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -515,6 +515,7 @@
 /* Begin PBXFileReference section */
 		006278AFB31CBFB7BD192C4E7ED5FE7D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		024FA80E7BF3ADB13A8B0DA79BB4875D /* YYAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYAnimatedImageView.h; path = YYImage/YYAnimatedImageView.h; sourceTree = "<group>"; };
+		0253FB0C17ED0B01D87777DF6E1B7F6A /* FFBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFBase-prefix.pch"; sourceTree = "<group>"; };
 		049274CA9BB3D939EEF9F8F480820DD4 /* UILabel+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Extension.h"; path = "FFUtils/Classes/Category/UILabel+Extension.h"; sourceTree = "<group>"; };
 		05559BBEB5381B4C096072C82CE20701 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0676A9F07424C490ABE223D58884013A /* YYImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -530,6 +531,7 @@
 		12CEFD28FE75DED81BE1BF028DE01E49 /* FFSpecialCellBottomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFSpecialCellBottomView.h; path = FFSpecialKit/Classes/Special/Home/FFSpecialCellBottomView.h; sourceTree = "<group>"; };
 		13D4EABEFB6AD9414DB8BF54EE8846D2 /* FFAPIs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFAPIs.xcconfig; sourceTree = "<group>"; };
 		146F9627B36F5DA2D7D3F9391252695B /* FFAuthorKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFAuthorKit-Info.plist"; sourceTree = "<group>"; };
+		1574A7872B20F9F651E1A9F012D7CE75 /* FFBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFBase.xcconfig; sourceTree = "<group>"; };
 		1613C3F10E87448E256BFEA1D0586819 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		1683D182B03DADAD3D64D0DF5051CED5 /* FFSpecialKit_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFSpecialKit_Category.framework; path = FFSpecialKit_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		169FF39B0EDB4D1F205066903AD7C88B /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
@@ -587,7 +589,6 @@
 		412CBF0DC13DAAEDFB7018A33C95DAE0 /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYWebImage.h"; path = "YYWebImage/Categories/UIImage+YYWebImage.h"; sourceTree = "<group>"; };
 		426E926A014D979EB3D65FDE03672F18 /* FFAuthorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFAuthorKit.modulemap; sourceTree = "<group>"; };
 		457F97BAE4B39274F18502C2825F9E5F /* FFAuhtorKit_Category-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFAuhtorKit_Category-Info.plist"; sourceTree = "<group>"; };
-		46AF90794DA0D896BB2F52A53D41AD14 /* FFBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFBase.xcconfig; sourceTree = "<group>"; };
 		474627153880EC32A1D1661031FE9304 /* FFAPIs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFAPIs-dummy.m"; sourceTree = "<group>"; };
 		474D0F9B455D554E1BF1EDE1A561A386 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		476D11EF2D9F3F8FF75B1650A145FD71 /* FFAuthorDetailController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFAuthorDetailController.h; path = FFAuthorKit/Classes/author/FFAuthorDetailController.h; sourceTree = "<group>"; };
@@ -606,7 +607,6 @@
 		4FC1978206616CE319648B302B05AA8A /* YYWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYWebImage.framework; path = YYWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5155E7976FCC33FCF2BC630BB7B1B1F5 /* FFUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFUtils.modulemap; sourceTree = "<group>"; };
 		5180ABF9BB72AB40172A9C041F519337 /* Target_Special.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_Special.h; path = FFSpecialKit/Classes/Special/Target_Special.h; sourceTree = "<group>"; };
-		51C2D13CC87AE316B80A5053914890EF /* FFBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		524C793402AE7FD0D483742F60EF3F21 /* FFSpecialKit_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSpecialKit_Category-prefix.pch"; sourceTree = "<group>"; };
 		526380FCEAA54D774BD1470A5C5BB022 /* FFMainView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFMainView.h; path = FFWdiget/Classes/MainView/FFMainView.h; sourceTree = "<group>"; };
 		53A94EA3E17439340BA9542F4C2DD6D7 /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+YYWebImage.m"; path = "YYWebImage/Categories/UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
@@ -629,6 +629,7 @@
 		5F3C758911935EEBCC1A1A0CBE3FBDF2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		60601CBDC7E5F02B9CC7F54FD9D8F3C7 /* FFWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFWidget.h; path = FFWdiget/Classes/FFWidget.h; sourceTree = "<group>"; };
 		62091FDA42F5EAB6561898E84D8A859B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		63EFB37339308B784115E5E856A6B6E0 /* FFBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFBase-dummy.m"; sourceTree = "<group>"; };
 		640858F2DE5EFE512FBE4523AC0DE351 /* YYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImage.h; path = YYImage/YYImage.h; sourceTree = "<group>"; };
 		651343922089A7AFC446D1985011CCC6 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		65B5B46B1E4016183D69B33E6349AB62 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
@@ -646,13 +647,11 @@
 		6F1E23904A088331FDF305FB4B9CA1EC /* FFWdiget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFWdiget-umbrella.h"; sourceTree = "<group>"; };
 		6F2643831D8C618AD5FAE98833EC16AA /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		6FA5B1D0D518F08ED88ABB39E5EFA5F8 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
-		706CA1E0BEF8DDC32A0194F5CF006351 /* FFBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFBase-dummy.m"; sourceTree = "<group>"; };
 		722A7F6524624DAD8D287B43B49E76AB /* YYWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageOperation.h; path = YYWebImage/YYWebImageOperation.h; sourceTree = "<group>"; };
 		72A645E3760C2A56EACC16B499C40C8A /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		74B3C25B8BDACD9706C8B3A25CA34763 /* FFSpecialKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFSpecialKit.xcconfig; sourceTree = "<group>"; };
 		74CEA0D04AE8427CCE0C0C07155CCF17 /* YYWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-umbrella.h"; sourceTree = "<group>"; };
 		74F0A257980B23A462CBDCD062571D08 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		74F36D7645C283083EFCA8380D4F23F6 /* FFNavController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFNavController.m; path = FFBase/Classes/Nav/FFNavController.m; sourceTree = "<group>"; };
 		7769D828B9C6EC6CC6AA7E3403504974 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYImage/YYAnimatedImageView.m; sourceTree = "<group>"; };
 		77A6F2705620C72DF62E434BBEE1D735 /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
 		77FE0AE5F3DAF2B843DE4070D56D95A4 /* FFBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFBase.framework; path = FFBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -685,7 +684,6 @@
 		8FCEF0E43415C71BED32AA39CB7B1B84 /* FFUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFUtils.framework; path = FFUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE4F7F3081C3C3D7EFE22EB4D0D3137 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		904E9E874E551E5781700A96E10E7C9A /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
-		90D1EEAD482C29A5852A32E35C6CC687 /* FFBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFBase-umbrella.h"; sourceTree = "<group>"; };
 		91B07777747B5C71807F10AE2705E7FE /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		91BA02BB8342F9990A4AC8EAFB12F41A /* YYWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYWebImage-dummy.m"; sourceTree = "<group>"; };
 		92534CDA3D77E946863242F7F920931A /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYWebImage/YYImageCache.h; sourceTree = "<group>"; };
@@ -704,10 +702,12 @@
 		9A15F23DCC5A49DD14303E582CA02773 /* UITableViewCell+FFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+FFAdd.h"; path = "FFWdiget/Classes/MainView/UITableViewCell+FFAdd.h"; sourceTree = "<group>"; };
 		9AFBF1BC3C252D8A59521B298C463FF3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		9C38F390198F37F4FB80D14C56994D21 /* FFSpecialCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFSpecialCell.h; path = FFSpecialKit/Classes/Special/Home/FFSpecialCell.h; sourceTree = "<group>"; };
+		9D513857051718946B230FBC79DB9DAF /* FFBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFBase.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA200F025CB981CFCE2C7BD2FE6C83C /* Pods-FlowerField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlowerField-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9FAFB4C9FFE6C29C6A1173377EBAC9CA /* UILabel+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Extension.m"; path = "FFUtils/Classes/Category/UILabel+Extension.m"; sourceTree = "<group>"; };
 		9FCC3E7C654DCC85D24E8C47845EF764 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		A159D4AAB81941DB2329C6BD1040F42E /* FFBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFBase-umbrella.h"; sourceTree = "<group>"; };
 		A1B33D61D69B6E6D2030BA3FF6A11E6D /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		A1FBE546C2281AA877389730C1F02952 /* FFSpecialKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFSpecialKit.framework; path = FFSpecialKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A223871F2EB731294451283313371F69 /* NetworkHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkHelper.h; path = FFAPIs/Classes/APIs/NetworkHelper.h; sourceTree = "<group>"; };
@@ -721,6 +721,7 @@
 		A8C18F0F0E95B5BF8B45A277B0A16A5F /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		A9D20B094AF3A315EFB3A821D2EBBA0F /* FFSpecialKit_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFSpecialKit_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA232EE337F57B11CE6646F862362663 /* Pods-FlowerField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlowerField.debug.xcconfig"; sourceTree = "<group>"; };
+		AB2DAA7CC23C7652E8D098167D678719 /* FFBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFBase.h; path = FFBase/Classes/FFBase.h; sourceTree = "<group>"; };
 		AB7A47255015E784499E2907D15F2332 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		AC2F607120860FD7F211434DD7DD4079 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		AC77D65968EE5D441B59AF6929F422F6 /* FFSpecialDetailView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFSpecialDetailView.m; path = FFSpecialKit/Classes/Special/Detail/FFSpecialDetailView.m; sourceTree = "<group>"; };
@@ -736,6 +737,7 @@
 		B4AB004BB43E6C738F50D54CFC6FE83E /* FFAuhtorKit_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFAuhtorKit_Category-dummy.m"; sourceTree = "<group>"; };
 		B8867D030F4F6B4C153EBF1E08C52281 /* YYWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYWebImage.xcconfig; sourceTree = "<group>"; };
 		B89AC60E2032B78F698C49DC512A13A8 /* FFWdiget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFWdiget.modulemap; sourceTree = "<group>"; };
+		B925806EE79026092FE2D64658128B42 /* FFBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFBase-Info.plist"; sourceTree = "<group>"; };
 		B97E20E29B7AA1B433F51085A0C83250 /* FFSpecialDetailView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFSpecialDetailView.h; path = FFSpecialKit/Classes/Special/Detail/FFSpecialDetailView.h; sourceTree = "<group>"; };
 		B9E61F59321659A2A6E8ADD7BA2EE1FD /* FFWdiget.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFWdiget.xcconfig; sourceTree = "<group>"; };
 		BB072E5989619C249A90ED29501E8E44 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
@@ -759,7 +761,6 @@
 		C94DD092C7C6B5C63A258475565F18B0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C987E2CB1A5680E1C19A92742929D3D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		CA43CB2D57BB1A23505C730CD1AD1BB6 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		CA48ACAFAA19CAA3296810E36D6805AC /* FFNavController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFNavController.h; path = FFBase/Classes/Nav/FFNavController.h; sourceTree = "<group>"; };
 		CD9B303AD169F38AA4A22D5B1B9E8460 /* UIButton+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extension.h"; path = "FFUtils/Classes/Category/UIButton+Extension.h"; sourceTree = "<group>"; };
 		CE06A9867199EACE0C64B748459A9FF4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		D382D8C3A001D77F8286E53E24F4EDBB /* FFUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFUtils-Info.plist"; sourceTree = "<group>"; };
@@ -777,7 +778,6 @@
 		DA2A972E99286CDFA084205057C29924 /* FFSpecialKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSpecialKit-umbrella.h"; sourceTree = "<group>"; };
 		DB5582BD1CE445ADF3942860A2485464 /* YYImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYImage-dummy.m"; sourceTree = "<group>"; };
 		DC9B8C01F56E83D496AF39B4738420BA /* Target_Author.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_Author.h; path = FFAuthorKit/Classes/author/Target_Author.h; sourceTree = "<group>"; };
-		DECF7B51A5A8F6286DD076BBD98CDC3C /* FFBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFBase-prefix.pch"; sourceTree = "<group>"; };
 		DF4776BD2304E01F571AAEE198114018 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		DFDBA020A246531D623AF5540855A4A6 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		E1352843C8E6A1D3AFEBA5D68536ED27 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
@@ -789,7 +789,7 @@
 		E646371D5AB012EB1063D4EE657777C9 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		E67702413628CDD95149D7C76D674101 /* FFSpecialKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSpecialKit-prefix.pch"; sourceTree = "<group>"; };
 		E72A6D45970D1E0B05376BF6250A371F /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
-		E76285C6021592B0791BA56FA7548904 /* FFBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFBase.modulemap; sourceTree = "<group>"; };
+		E8618A0E1C98D05B6B28413DEBDC84CA /* FFBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFBase.modulemap; sourceTree = "<group>"; };
 		EB1A372450428B246055D861E9161A07 /* Pods_FlowerField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlowerField.framework; path = "Pods-FlowerField.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB20343BFA3F4F61E168A13943DD0AA9 /* CTMediator+Ahthor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+Ahthor.m"; path = "FFAuhtorKit_Category/Classes/CTMediator+Ahthor.m"; sourceTree = "<group>"; };
 		EC51489D55DB15D4AD27724EFACADD53 /* FFWdiget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFWdiget-prefix.pch"; sourceTree = "<group>"; };
@@ -799,7 +799,6 @@
 		EE0BE549218DD7EA2F5FC39D928C8966 /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
 		EE1054C661782CD4905FE972E090FF17 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		EE24BD596493E00C8A36FFE4094AAED8 /* YYImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCoder.h; path = YYImage/YYImageCoder.h; sourceTree = "<group>"; };
-		EE28094881A0F5BB589FA58CD1A5FA20 /* FFBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFBase.h; path = FFBase/Classes/FFBase.h; sourceTree = "<group>"; };
 		EF579856E1045B6858BBAB2CAD5BE3CE /* FFAuthorListReformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFAuthorListReformer.h; path = FFAuthorKit/Classes/author/FFAuthorListReformer.h; sourceTree = "<group>"; };
 		EF8872A3C22163BD5BAA1FF9FAAC47C5 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		EFAC28FEB6BB4F66EAE3AEF538224EF4 /* APIRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APIRequest.m; path = FFAPIs/Classes/APIs/APIRequest.m; sourceTree = "<group>"; };
@@ -812,12 +811,13 @@
 		F89697584D8BB80CE9BDD81A8FB978BD /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		F8A0782B2DE107FC4E6378565F57D3B1 /* FFSecialDetailView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FFSecialDetailView.xib; path = FFSpecialKit/Classes/Special/Detail/FFSecialDetailView.xib; sourceTree = "<group>"; };
 		F8C4B4E59A8BDD1FAE29136A8FDB711E /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+YYWebImage.h"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
+		F91044DEC0E12DC820F4E3FFB7C1F561 /* FFNavController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFNavController.h; path = FFBase/Classes/Nav/FFNavController.h; sourceTree = "<group>"; };
 		F956FD55FC99E139467A0343B865B79F /* Pods-FlowerField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlowerField.modulemap"; sourceTree = "<group>"; };
 		F9E8C964C551E83D736F3EBCC9B664FD /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		FA06FF52ED28A4CD5188568EC441BED7 /* FFAPIs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFAPIs-Info.plist"; sourceTree = "<group>"; };
+		FB27B99C39773D7758029CDC7E3D283C /* FFNavController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFNavController.m; path = FFBase/Classes/Nav/FFNavController.m; sourceTree = "<group>"; };
 		FCAE273794236BF11BC94AC2BC1CA825 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		FD0B0E39B9AC0D238BDB65D334904753 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		FE9AE0773505BAE62D8F10D6A4A2E1C4 /* FFBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFBase-Info.plist"; sourceTree = "<group>"; };
 		FFCFAB5B21868F6CEDA4AA0556292609 /* FFAPIs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFAPIs.framework; path = FFAPIs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1133,15 +1133,6 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
-		5A91FFB76E72CB808411B5028506AB77 /* Nav */ = {
-			isa = PBXGroup;
-			children = (
-				CA48ACAFAA19CAA3296810E36D6805AC /* FFNavController.h */,
-				74F36D7645C283083EFCA8380D4F23F6 /* FFNavController.m */,
-			);
-			name = Nav;
-			sourceTree = "<group>";
-		};
 		5CC4D57AC72ED2DE0C3338041CA39299 /* FFSpecialKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1151,6 +1142,20 @@
 			);
 			name = FFSpecialKit;
 			path = FFSpecialKit;
+			sourceTree = "<group>";
+		};
+		5D9BD07009AB1076D45CE599829FA6A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8618A0E1C98D05B6B28413DEBDC84CA /* FFBase.modulemap */,
+				1574A7872B20F9F651E1A9F012D7CE75 /* FFBase.xcconfig */,
+				63EFB37339308B784115E5E856A6B6E0 /* FFBase-dummy.m */,
+				B925806EE79026092FE2D64658128B42 /* FFBase-Info.plist */,
+				0253FB0C17ED0B01D87777DF6E1B7F6A /* FFBase-prefix.pch */,
+				A159D4AAB81941DB2329C6BD1040F42E /* FFBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/FFBase";
 			sourceTree = "<group>";
 		};
 		5DA739025448796588E978E5D74727E1 /* Support Files */ = {
@@ -1182,6 +1187,14 @@
 				3C87C3D902EEF20DCE197F5538C2523D /* YYSpriteSheetImage.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		62BED3E986F8A514C530B87307A626A9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D513857051718946B230FBC79DB9DAF /* FFBase.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		63BD7699206D7BF21B63975C61D580CA /* Author */ = {
@@ -1349,24 +1362,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7CF1F77642216A6961D664D483B3F6A7 /* FFBase */ = {
+		7D1359F36BCE3FB3BDEDA646767D15CD /* FFBase */ = {
 			isa = PBXGroup;
 			children = (
-				EE28094881A0F5BB589FA58CD1A5FA20 /* FFBase.h */,
-				5A91FFB76E72CB808411B5028506AB77 /* Nav */,
-				CAC52F9BDAB095B6203FE55ED345F8BA /* Pod */,
-				981183E68B2851E5C4E6D73181544A96 /* Support Files */,
+				AB2DAA7CC23C7652E8D098167D678719 /* FFBase.h */,
+				ED161388032BF1FBE90BB5C95E9C27E4 /* Nav */,
+				62BED3E986F8A514C530B87307A626A9 /* Pod */,
+				5D9BD07009AB1076D45CE599829FA6A2 /* Support Files */,
 			);
 			name = FFBase;
-			path = ../../../FFBase;
-			sourceTree = "<group>";
-		};
-		7ECA09119E0D06192C3AD6D50720085E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7CF1F77642216A6961D664D483B3F6A7 /* FFBase */,
-			);
-			name = "Development Pods";
+			path = ../FFBase;
 			sourceTree = "<group>";
 		};
 		93C06625E61FD764222B3705898DC692 /* Detail */ = {
@@ -1379,20 +1384,6 @@
 				AC77D65968EE5D441B59AF6929F422F6 /* FFSpecialDetailView.m */,
 			);
 			name = Detail;
-			sourceTree = "<group>";
-		};
-		981183E68B2851E5C4E6D73181544A96 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E76285C6021592B0791BA56FA7548904 /* FFBase.modulemap */,
-				46AF90794DA0D896BB2F52A53D41AD14 /* FFBase.xcconfig */,
-				706CA1E0BEF8DDC32A0194F5CF006351 /* FFBase-dummy.m */,
-				FE9AE0773505BAE62D8F10D6A4A2E1C4 /* FFBase-Info.plist */,
-				DECF7B51A5A8F6286DD076BBD98CDC3C /* FFBase-prefix.pch */,
-				90D1EEAD482C29A5852A32E35C6CC687 /* FFBase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../ComponentDemo/FlowerField_Component/Pods/Target Support Files/FFBase";
 			sourceTree = "<group>";
 		};
 		98CD3F66EBE4A34EBF4A142B926880A0 /* Support Files */ = {
@@ -1486,6 +1477,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A023A1EF4336974424F1255815A26B33 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D1359F36BCE3FB3BDEDA646767D15CD /* FFBase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		B1DC6F7690411C5793E6923CC3D48C13 /* FFWdiget */ = {
 			isa = PBXGroup;
 			children = (
@@ -1576,19 +1575,11 @@
 			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
-		CAC52F9BDAB095B6203FE55ED345F8BA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				51C2D13CC87AE316B80A5053914890EF /* FFBase.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7ECA09119E0D06192C3AD6D50720085E /* Development Pods */,
+				A023A1EF4336974424F1255815A26B33 /* Development Pods */,
 				682E310B3AE4624659A5CD1B5BD81F1B /* Frameworks */,
 				7B402C76A390D866791ED28933CBB4F3 /* Pods */,
 				D0D825C530A6B1CD9E79E7E31A9CD122 /* Products */,
@@ -1682,6 +1673,15 @@
 				1613C3F10E87448E256BFEA1D0586819 /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
+			sourceTree = "<group>";
+		};
+		ED161388032BF1FBE90BB5C95E9C27E4 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				F91044DEC0E12DC820F4E3FFB7C1F561 /* FFNavController.h */,
+				FB27B99C39773D7758029CDC7E3D283C /* FFNavController.m */,
+			);
+			name = Nav;
 			sourceTree = "<group>";
 		};
 		F300D415185D2DEED3EA55AB72EBC7CA /* Home */ = {
@@ -2838,7 +2838,7 @@
 		};
 		0314DD94E74F50300FB502F3126A52B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46AF90794DA0D896BB2F52A53D41AD14 /* FFBase.xcconfig */;
+			baseConfigurationReference = 1574A7872B20F9F651E1A9F012D7CE75 /* FFBase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3203,7 +3203,7 @@
 		};
 		5A3CDDC5217EE590421B3AF61E8FB54D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46AF90794DA0D896BB2F52A53D41AD14 /* FFBase.xcconfig */;
+			baseConfigurationReference = 1574A7872B20F9F651E1A9F012D7CE75 /* FFBase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

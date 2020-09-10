@@ -9,7 +9,7 @@ target ‘FlowerField’ do
 pod 'FFSpecialKit', git:'https://github.com/BJComponent/FFSpecialKit.git'
 pod 'FFAuthorKit', git:'https://github.com/BJComponent/FFAuthorKit.git'
 
-pod 'FFBase', :path => '../../FFBase'
+pod 'FFBase', :path => './FFBase'
 #pod 'FFAuthorKit', '~> 0.1.6'
 
 end

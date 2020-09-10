@@ -63,7 +63,7 @@ PODS:
 
 DEPENDENCIES:
   - FFAuthorKit (from `https://github.com/BJComponent/FFAuthorKit.git`)
-  - FFBase (from `../../FFBase`)
+  - FFBase (from `./FFBase`)
   - FFSpecialKit (from `https://github.com/BJComponent/FFSpecialKit.git`)
 
 SPEC REPOS:
@@ -85,7 +85,7 @@ EXTERNAL SOURCES:
   FFAuthorKit:
     :git: https://github.com/BJComponent/FFAuthorKit.git
   FFBase:
-    :path: "../../FFBase"
+    :path: "./FFBase"
   FFSpecialKit:
     :git: https://github.com/BJComponent/FFSpecialKit.git
 
@@ -113,6 +113,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 768a1122349f7ba880a5f53bbd0ba33b0c8176b7
+PODFILE CHECKSUM: 385467947032bdbc14de92e871710e68b42e0e9e
 
 COCOAPODS: 1.7.5

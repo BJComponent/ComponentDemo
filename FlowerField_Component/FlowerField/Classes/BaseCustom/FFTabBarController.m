@@ -7,7 +7,7 @@
 //
 
 #import "FFTabBarController.h"
-#import "FFNavController.h"
+#import "FFBase.h"
 #import "FFSpecialController.h"
 #import "FFAuthorController.h"
 #import "FFShopController.h"
