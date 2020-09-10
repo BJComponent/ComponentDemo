@@ -29,6 +29,10 @@ PODS:
     - FFWdiget
     - Masonry
     - YYWebImage
+  - FFBase (0.0.1):
+    - FFBase/Nav (= 0.0.1)
+  - FFBase/Nav (0.0.1):
+    - FFUtils
   - FFSpecialKit (0.1.6):
     - FFSpecialKit/Special (= 0.1.6)
   - FFSpecialKit/Special (0.1.6):
@@ -59,6 +63,7 @@ PODS:
 
 DEPENDENCIES:
   - FFAuthorKit (from `https://github.com/BJComponent/FFAuthorKit.git`)
+  - FFBase (from `../../FFBase`)
   - FFSpecialKit (from `https://github.com/BJComponent/FFSpecialKit.git`)
 
 SPEC REPOS:
@@ -79,6 +84,8 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   FFAuthorKit:
     :git: https://github.com/BJComponent/FFAuthorKit.git
+  FFBase:
+    :path: "../../FFBase"
   FFSpecialKit:
     :git: https://github.com/BJComponent/FFSpecialKit.git
 
@@ -96,6 +103,7 @@ SPEC CHECKSUMS:
   FFAPIs: 31b311de8d39294d435886a0cb7b4e7b61f29cf0
   FFAuhtorKit_Category: 4c8f05c933d8ac9aa60280935cce3f4a9fa0989b
   FFAuthorKit: 8823f133c9e10e5845a16db44e9825638ccdcd3e
+  FFBase: 1daafb4ee30ff72051b694371a842aab1ad8dbb2
   FFSpecialKit: 17410b7d57bb0aa4b9d30f93af562b7f100c3d58
   FFSpecialKit_Category: bb7b5e84aec34498e88629f3c55503a8bf7be4f4
   FFUtils: a8aab384fa412e33169bce9156f03ef7d9ae60dc
@@ -105,6 +113,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 3996b2614ebddf56cc3839dd121137f996f59bff
+PODFILE CHECKSUM: 768a1122349f7ba880a5f53bbd0ba33b0c8176b7
 
 COCOAPODS: 1.7.5

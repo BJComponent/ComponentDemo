@@ -1,0 +1,6 @@
+framework module FFBase {
+  umbrella header "FFBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

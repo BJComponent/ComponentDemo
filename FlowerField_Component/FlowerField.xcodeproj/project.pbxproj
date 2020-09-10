@@ -12,7 +12,6 @@
 		1FCD560B1D363ACC007F5C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD560A1D363ACC007F5C78 /* AppDelegate.m */; };
 		1FCD56131D363ACC007F5C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD56121D363ACC007F5C78 /* Assets.xcassets */; };
 		1FEA4F1D1D49B33C0043358F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEA4F1C1D49B33C0043358F /* CoreGraphics.framework */; };
-		6C32949A1F444B1A00A9FB2B /* FFNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3294951F444B1A00A9FB2B /* FFNavController.m */; };
 		6C32949C1F444B1A00A9FB2B /* FFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3294991F444B1A00A9FB2B /* FFTabBarController.m */; };
 		6CE005F61F67879A00365640 /* FFShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE005F51F67879A00365640 /* FFShopController.m */; };
 		6CE006231F682E4300365640 /* CODE BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 6CE0061F1F682E4300365640 /* CODE BOLD.OTF */; };
@@ -30,8 +29,6 @@
 		1FCD56171D363ACC007F5C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FEA4F1C1D49B33C0043358F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		603E448B4705E98F851F72D2 /* Pods-FlowerField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerField/Pods-FlowerField.debug.xcconfig"; sourceTree = "<group>"; };
-		6C3294941F444B1A00A9FB2B /* FFNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNavController.h; sourceTree = "<group>"; };
-		6C3294951F444B1A00A9FB2B /* FFNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNavController.m; sourceTree = "<group>"; };
 		6C3294981F444B1A00A9FB2B /* FFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabBarController.h; sourceTree = "<group>"; };
 		6C3294991F444B1A00A9FB2B /* FFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTabBarController.m; sourceTree = "<group>"; };
 		6CE005F41F67879A00365640 /* FFShopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFShopController.h; sourceTree = "<group>"; };
@@ -109,8 +106,6 @@
 		6C3294931F444B1A00A9FB2B /* BaseCustom */ = {
 			isa = PBXGroup;
 			children = (
-				6C3294941F444B1A00A9FB2B /* FFNavController.h */,
-				6C3294951F444B1A00A9FB2B /* FFNavController.m */,
 				6C3294981F444B1A00A9FB2B /* FFTabBarController.h */,
 				6C3294991F444B1A00A9FB2B /* FFTabBarController.m */,
 			);
@@ -274,6 +269,7 @@
 				"${BUILT_PRODUCTS_DIR}/FFAPIs/FFAPIs.framework",
 				"${BUILT_PRODUCTS_DIR}/FFAuhtorKit_Category/FFAuhtorKit_Category.framework",
 				"${BUILT_PRODUCTS_DIR}/FFAuthorKit/FFAuthorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFBase/FFBase.framework",
 				"${BUILT_PRODUCTS_DIR}/FFSpecialKit/FFSpecialKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FFSpecialKit_Category/FFSpecialKit_Category.framework",
 				"${BUILT_PRODUCTS_DIR}/FFUtils/FFUtils.framework",
@@ -290,6 +286,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAPIs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAuhtorKit_Category.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAuthorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFBase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFSpecialKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFSpecialKit_Category.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFUtils.framework",
@@ -315,7 +312,6 @@
 				1FCD560B1D363ACC007F5C78 /* AppDelegate.m in Sources */,
 				1FCD56081D363ACC007F5C78 /* main.m in Sources */,
 				6CE005F61F67879A00365640 /* FFShopController.m in Sources */,
-				6C32949A1F444B1A00A9FB2B /* FFNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
