@@ -10,7 +10,6 @@
 #import "FFBase.h"
 #import "FFSpecialController.h"
 #import "FFAuthorController.h"
-#import "FFShopController.h"
 
 @implementation FFTabBarController
 
@@ -19,7 +18,6 @@
 
     [self addChildViewController:[FFSpecialController new] navTitle:@"SPECIAL" tabbarTitle:@"专题" tabbarImage:@"tb_0"];
     [self addChildViewController:[FFAuthorController new] navTitle:@"AUTHOR" tabbarTitle:@"作者" tabbarImage:@"tb_2"];
-    [self addChildViewController:[FFShopController new] navTitle:@"SHOP" tabbarTitle:@"商城" tabbarImage:@"tb_1"];
 }
 
 - (void)addChildViewController:(UIViewController *)controller navTitle:(NSString *)navTitle tabbarTitle:(NSString *)tabbarTitle tabbarImage:(NSString *)tabbarImage{

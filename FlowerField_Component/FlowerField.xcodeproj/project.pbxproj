@@ -13,7 +13,6 @@
 		1FCD56131D363ACC007F5C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD56121D363ACC007F5C78 /* Assets.xcassets */; };
 		1FEA4F1D1D49B33C0043358F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEA4F1C1D49B33C0043358F /* CoreGraphics.framework */; };
 		6C32949C1F444B1A00A9FB2B /* FFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3294991F444B1A00A9FB2B /* FFTabBarController.m */; };
-		6CE005F61F67879A00365640 /* FFShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE005F51F67879A00365640 /* FFShopController.m */; };
 		6CE006231F682E4300365640 /* CODE BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 6CE0061F1F682E4300365640 /* CODE BOLD.OTF */; };
 		6CE006241F682E4300365640 /* CODE LIGHT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 6CE006201F682E4300365640 /* CODE LIGHT.OTF */; };
 		6CE006251F682E4300365640 /* FZXQJW_0.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 6CE006211F682E4300365640 /* FZXQJW_0.TTF */; };
@@ -31,8 +30,6 @@
 		603E448B4705E98F851F72D2 /* Pods-FlowerField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerField/Pods-FlowerField.debug.xcconfig"; sourceTree = "<group>"; };
 		6C3294981F444B1A00A9FB2B /* FFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTabBarController.h; sourceTree = "<group>"; };
 		6C3294991F444B1A00A9FB2B /* FFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTabBarController.m; sourceTree = "<group>"; };
-		6CE005F41F67879A00365640 /* FFShopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFShopController.h; sourceTree = "<group>"; };
-		6CE005F51F67879A00365640 /* FFShopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFShopController.m; sourceTree = "<group>"; };
 		6CE0061F1F682E4300365640 /* CODE BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CODE BOLD.OTF"; sourceTree = "<group>"; };
 		6CE006201F682E4300365640 /* CODE LIGHT.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CODE LIGHT.OTF"; sourceTree = "<group>"; };
 		6CE006211F682E4300365640 /* FZXQJW_0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZXQJW_0.TTF; sourceTree = "<group>"; };
@@ -98,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				6C3294931F444B1A00A9FB2B /* BaseCustom */,
-				6C32949D1F453BE200A9FB2B /* Shop(商城) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -110,23 +106,6 @@
 				6C3294991F444B1A00A9FB2B /* FFTabBarController.m */,
 			);
 			path = BaseCustom;
-			sourceTree = "<group>";
-		};
-		6C32949D1F453BE200A9FB2B /* Shop(商城) */ = {
-			isa = PBXGroup;
-			children = (
-				6CE005F31F67879A00365640 /* Mainpage */,
-			);
-			path = "Shop(商城)";
-			sourceTree = "<group>";
-		};
-		6CE005F31F67879A00365640 /* Mainpage */ = {
-			isa = PBXGroup;
-			children = (
-				6CE005F41F67879A00365640 /* FFShopController.h */,
-				6CE005F51F67879A00365640 /* FFShopController.m */,
-			);
-			path = Mainpage;
 			sourceTree = "<group>";
 		};
 		6CE0061D1F682E4300365640 /* Resources */ = {
@@ -311,7 +290,6 @@
 				6C32949C1F444B1A00A9FB2B /* FFTabBarController.m in Sources */,
 				1FCD560B1D363ACC007F5C78 /* AppDelegate.m in Sources */,
 				1FCD56081D363ACC007F5C78 /* main.m in Sources */,
-				6CE005F61F67879A00365640 /* FFShopController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

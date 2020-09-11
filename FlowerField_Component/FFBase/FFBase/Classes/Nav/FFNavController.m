@@ -32,7 +32,6 @@
 
 #pragma mark - private
 - (void)goBackItem:(UIViewController *)controller{
-    
     self.interactivePopGestureRecognizer.delegate = nil;
     UIBarButtonItem *back = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"back"] style:UIBarButtonItemStylePlain target:self action:@selector(s_backTapEvent)];
     controller.navigationItem.leftBarButtonItem = back;
