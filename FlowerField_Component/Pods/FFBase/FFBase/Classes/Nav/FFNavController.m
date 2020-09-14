@@ -7,7 +7,7 @@
 //
 
 #import "FFNavController.h"
-//#import <FFUtils/FFUtils.h>
+#import <FFUtils/FFUtils.h>
 
 @implementation FFNavController
 
@@ -15,10 +15,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self.navigationBar setTitleTextAttributes:
-//     @{NSFontAttributeName:[UIFont systemFontOfSize:FONT_SIZE_16],
-//       NSForegroundColorAttributeName:[UIColor darkGrayColor]}];
-//    self.navigationBar.barTintColor = kNavBarTintColor;
+    [self.navigationBar setTitleTextAttributes:
+     @{NSFontAttributeName:[UIFont systemFontOfSize:FONT_SIZE_16],
+       NSForegroundColorAttributeName:[UIColor darkGrayColor]}];
+    self.navigationBar.barTintColor = kNavBarTintColor;
 }
 
 #pragma mark - public

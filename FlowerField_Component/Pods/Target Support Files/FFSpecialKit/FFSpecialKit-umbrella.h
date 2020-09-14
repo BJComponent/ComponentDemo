@@ -12,7 +12,6 @@
 
 #import "Target_Special.h"
 #import "FFSpecialDetailController.h"
-#import "FFSpecialDetailView.h"
 #import "FFSpecialCell.h"
 #import "FFSpecialCellBottomView.h"
 #import "FFSpecialController.h"

@@ -7,11 +7,11 @@
 //
 
 #import "FFSpecialDetailController.h"
-#import "FFSpecialDetailView.h"
+//#import "FFSpecialDetailView.h"
 
 @interface FFSpecialDetailController ()
 
-@property (nonatomic, strong) FFSpecialDetailView *detailView;
+//@property (nonatomic, strong) FFSpecialDetailView *detailView;
 
 @end
 
@@ -22,14 +22,14 @@
     self.title = @"专题的详情换了boundle";
     self.view.backgroundColor = [UIColor greenColor];
     
-    NSBundle *xibBundle = [NSBundle bundleForClass:[self class]];
-    self.detailView = [xibBundle loadNibNamed:@"FFSecialDetailView" owner:self options:nil].lastObject;
-    [self.view addSubview:self.detailView];
+//    NSBundle *xibBundle = [NSBundle bundleForClass:[self class]];
+//    self.detailView = [xibBundle loadNibNamed:@"FFSecialDetailView" owner:self options:nil].lastObject;
+//    [self.view addSubview:self.detailView];
 }
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    self.detailView.frame = self.view.frame;
+//    self.detailView.frame = self.view.frame;
 }
 
 @end

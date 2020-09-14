@@ -87,10 +87,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = 'FFBase/Classes/FFBase.h'
+  spec.source_files = './FFBase/Classes/FFBase.h'
 
   spec.subspec 'Nav' do |ss|
-      ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
+      ss.source_files = './FFBase/Classes/Nav/**/*.{h,m}'
       ss.dependency 'FFUtils'
   end
   
