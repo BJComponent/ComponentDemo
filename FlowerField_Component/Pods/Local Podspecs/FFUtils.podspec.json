@@ -1,0 +1,40 @@
+{
+  "name": "FFUtils",
+  "version": "0.1.5",
+  "summary": "A short description of FFUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BJComponent/FFUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangwenjun0630@163.com": "zhangwenjun@xiaobu121.com"
+  },
+  "source": {
+    "git": "https://github.com/BJComponent/FFUtils.git",
+    "tag": "0.1.5"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFUtils/Classes/FFUtils.h",
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "FFUtils/Classes/Category/**/*.{h,m}"
+    },
+    {
+      "name": "Configs",
+      "source_files": "FFUtils/Classes/Configs/**/*.{h,m}"
+    },
+    {
+      "name": "ReformerKeys",
+      "source_files": "FFUtils/Classes/ReformerKeys/**/*.{h,m}"
+    },
+    {
+      "name": "Tools",
+      "source_files": "FFUtils/Classes/Tools/**/*.{h,m}"
+    }
+  ]
+}

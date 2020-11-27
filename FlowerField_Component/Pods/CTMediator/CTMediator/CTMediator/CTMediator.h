@@ -6,7 +6,7 @@
 //  Copyright © 2016年 casa. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 extern NSString * _Nonnull const kCTMediatorParamsKeySwiftTargetModuleName;
 
@@ -21,3 +21,6 @@ extern NSString * _Nonnull const kCTMediatorParamsKeySwiftTargetModuleName;
 - (void)releaseCachedTargetWithFullTargetName:(NSString * _Nullable)fullTargetName;
 
 @end
+  
+// 简化调用单例的函数
+CTMediator* _Nonnull CT(void);

@@ -6,7 +6,9 @@
 //  Copyright © 2017年 Triangle. All rights reserved.
 //
 
-#import <FFAPIs/FFAPIs-umbrella.h>
+//#import <FFAPIs/FFAPIs-umbrella.h>
+#warning import
+#import "FFApis.h"
 
 @interface AuthorAPIRequest : APIRequest<APIRequestProtocol>
 

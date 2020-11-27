@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073D75EEF9476DF787B23215 /* Pods_FlowerField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA99BB2290CB1E2CD39EF9A /* Pods_FlowerField.framework */; };
 		1FCD56081D363ACC007F5C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD56071D363ACC007F5C78 /* main.m */; };
 		1FCD560B1D363ACC007F5C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD560A1D363ACC007F5C78 /* AppDelegate.m */; };
 		1FCD56131D363ACC007F5C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD56121D363ACC007F5C78 /* Assets.xcassets */; };
 		1FEA4F1D1D49B33C0043358F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEA4F1C1D49B33C0043358F /* CoreGraphics.framework */; };
+		43B067A6CBC1C0CB5A936A24 /* libPods-FlowerField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB54094F743C296719FB821D /* libPods-FlowerField.a */; };
 		6C32949C1F444B1A00A9FB2B /* FFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3294991F444B1A00A9FB2B /* FFTabBarController.m */; };
 		6CE006231F682E4300365640 /* CODE BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 6CE0061F1F682E4300365640 /* CODE BOLD.OTF */; };
 		6CE006241F682E4300365640 /* CODE LIGHT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 6CE006201F682E4300365640 /* CODE LIGHT.OTF */; };
@@ -34,7 +34,7 @@
 		6CE006201F682E4300365640 /* CODE LIGHT.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CODE LIGHT.OTF"; sourceTree = "<group>"; };
 		6CE006211F682E4300365640 /* FZXQJW_0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZXQJW_0.TTF; sourceTree = "<group>"; };
 		6CE006221F682E4300365640 /* 方正兰亭纤黑简体.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正兰亭纤黑简体.TTF"; sourceTree = "<group>"; };
-		9CA99BB2290CB1E2CD39EF9A /* Pods_FlowerField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB54094F743C296719FB821D /* libPods-FlowerField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlowerField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E118FE69CC3F4EA51991FA /* Pods-FlowerField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerField.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerField/Pods-FlowerField.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEA4F1D1D49B33C0043358F /* CoreGraphics.framework in Frameworks */,
-				073D75EEF9476DF787B23215 /* Pods_FlowerField.framework in Frameworks */,
+				43B067A6CBC1C0CB5A936A24 /* libPods-FlowerField.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				1FEA4F1C1D49B33C0043358F /* CoreGraphics.framework */,
-				9CA99BB2290CB1E2CD39EF9A /* Pods_FlowerField.framework */,
+				CB54094F743C296719FB821D /* libPods-FlowerField.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 				1FCD55FF1D363ACC007F5C78 /* Sources */,
 				1FCD56001D363ACC007F5C78 /* Frameworks */,
 				1FCD56011D363ACC007F5C78 /* Resources */,
-				4F182D5900DCCAF79831DF8A /* [CP] Embed Pods Frameworks */,
+				B849948F676D36AB8E8D15A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,48 +218,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4F182D5900DCCAF79831DF8A /* [CP] Embed Pods Frameworks */ = {
+		B849948F676D36AB8E8D15A7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlowerField/Pods-FlowerField-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/FFAPIs/FFAPIs.framework",
-				"${BUILT_PRODUCTS_DIR}/FFAuhtorKit_Category/FFAuhtorKit_Category.framework",
-				"${BUILT_PRODUCTS_DIR}/FFAuthorKit/FFAuthorKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FFBase/FFBase.framework",
-				"${BUILT_PRODUCTS_DIR}/FFSpecialKit/FFSpecialKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FFSpecialKit_Category/FFSpecialKit_Category.framework",
-				"${BUILT_PRODUCTS_DIR}/FFUtils/FFUtils.framework",
-				"${BUILT_PRODUCTS_DIR}/FFWdiget/FFWdiget.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
-				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
-				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-FlowerField/Pods-FlowerField-resources.sh",
+				"${PODS_ROOT}/FFAuthorKit/FFAuthorKit/Assets/FFAuthorKit.bundle",
+				"${PODS_ROOT}/FFSpecialKit/FFSpecialKit/Assets/FFSpecialKit.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAPIs.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAuhtorKit_Category.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAuthorKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFBase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFSpecialKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFSpecialKit_Category.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFUtils.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFWdiget.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FFAuthorKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FFSpecialKit.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowerField/Pods-FlowerField-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowerField/Pods-FlowerField-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDF0EB7EC71FF1E57D90CC9D /* [CP] Check Pods Manifest.lock */ = {
